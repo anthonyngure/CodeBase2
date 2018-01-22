@@ -9,6 +9,7 @@
 package ke.co.toshngure.camera;
 
 import android.content.Context;
+import android.content.Intent;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.graphics.Matrix;
@@ -21,6 +22,9 @@ import android.view.Display;
 import android.view.WindowManager;
 
 import java.io.ByteArrayOutputStream;
+import java.io.File;
+import java.io.FileOutputStream;
+import java.io.IOException;
 
 public class ImageUtility {
 
@@ -64,7 +68,7 @@ public class ImageUtility {
         String fileName = System.currentTimeMillis() + ".jpg";
 
 
-        /*File mediaFile = new File(FileUtil.getFolderInAppExternalDirectory(context, "Camera"), fileName);
+        File mediaFile = new File(FileUtil.getFolderInAppExternalDirectory(context, "Camera"), fileName);
         // Saving the bitmap
         try {
             ByteArrayOutputStream out = new ByteArrayOutputStream();
@@ -83,8 +87,7 @@ public class ImageUtility {
         mediaScannerIntent.setData(fileContentUri);
         context.sendBroadcast(mediaScannerIntent);
 
-        return fileContentUri;*/
-        return null;
+        return fileContentUri;
     }
 
     public static Bitmap decodeSampledBitmapFromPath(String path, int reqWidth, int reqHeight) {

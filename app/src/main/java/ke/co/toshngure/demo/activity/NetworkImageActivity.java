@@ -24,10 +24,10 @@ import java.util.Random;
 import butterknife.BindView;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
-import ke.co.toshngure.basecode.images.NetworkImage;
 import ke.co.toshngure.basecode.utils.BaseUtils;
 import ke.co.toshngure.basecode.utils.DrawableUtils;
 import ke.co.toshngure.demo.R;
+import ke.co.toshngure.views.NetworkImage;
 
 public class NetworkImageActivity extends BaseActivity {
 
@@ -49,7 +49,6 @@ public class NetworkImageActivity extends BaseActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_network_image);
         ButterKnife.bind(this);
-        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
         circledNI.setLoadingCallBack(resource -> {
             toastDebug("Circle Image Loaded");

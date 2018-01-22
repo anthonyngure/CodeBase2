@@ -22,14 +22,14 @@ import android.widget.FrameLayout;
 import com.jaychang.srv.SimpleRecyclerView;
 import com.loopj.android.http.AsyncHttpClient;
 
-import ke.co.toshngure.basecode.dataloading.DataLoadingConfig;
-import ke.co.toshngure.basecode.dataloading.ModelCursor;
-import ke.co.toshngure.basecode.dataloading.ModelListBottomSheetFragment;
-import ke.co.toshngure.basecode.images.NetworkImage;
+import ke.co.toshngure.dataloading.DataLoadingConfig;
+import ke.co.toshngure.dataloading.ModelCursor;
+import ke.co.toshngure.dataloading.ModelListBottomSheetFragment;
 import ke.co.toshngure.demo.R;
 import ke.co.toshngure.demo.cell.UserCell;
 import ke.co.toshngure.demo.model.User;
 import ke.co.toshngure.demo.network.Client;
+import ke.co.toshngure.views.NetworkImage;
 
 /**
  * A simple {@link Fragment} subclass.

@@ -56,4 +56,5 @@ dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
 
     implementation "com.android.support:appcompat-v7:$supportLibVersion"
+    implementation 'com.github.anthonyngure.CodeBase2:basecode:-SNAPSHOT'
 }
