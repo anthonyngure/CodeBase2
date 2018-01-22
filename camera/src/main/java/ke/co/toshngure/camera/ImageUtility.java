@@ -26,6 +26,8 @@ import java.io.File;
 import java.io.FileOutputStream;
 import java.io.IOException;
 
+import ke.co.toshngure.basecode.utils.FileUtil;
+
 public class ImageUtility {
 
     public static String convertBitmapToString(Bitmap bitmap) {
