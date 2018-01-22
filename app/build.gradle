@@ -72,7 +72,7 @@ dependencies {
     }
     //implementation project(':basecode')
     implementation 'com.github.anthonyngure:ToshBaseCode:-SNAPSHOT@aar'
-    implementation 'com.github.anthonyngure:CodeBase2:-SNAPSHOT@aar'
+    //implementation 'com.github.anthonyngure:CodeBase2:-SNAPSHOT@aar'
     //implementation project(':dataloading')
     //implementation project(':views')
     implementation project(':camera')
