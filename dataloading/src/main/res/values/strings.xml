@@ -1,0 +1,20 @@
+<!--
+  ~ Copyright (c) 2018.
+  ~
+  ~ Anthony Ngure
+  ~
+  ~ Email : anthonyngure25@gmail.com
+  -->
+
+<resources>
+    <string name="app_name">Data Loading</string>
+    <string name="connection_timed_out">Connection timed out</string>
+    <string name="error_connection">Seems like your connection to the server is taking too long. Please check your network status</string>
+    <string name="message_empty_data">Nothing here yet :(</string>
+    <string name="server_error">Server error</string>
+    <string name="error_application">An application error occurred</string>
+    <string name="report">Report</string>
+    <string name="message_loading_more">Loading more…</string>
+    <string name="message_more_data_request_exhausted">Nothing more, pull down to refresh :(</string>
+    <string name="retry">Retry</string>
+</resources>
