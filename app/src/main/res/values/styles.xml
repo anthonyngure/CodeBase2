@@ -32,8 +32,8 @@
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:background">?attr/selectableItemBackground</item>
-        <item name="sliDrawable">@drawable/ic_android_black_24dp</item>
-        <item name="sliSubTitle">@string/bottom_sheet_behavior</item>
+       <!-- <item name="sliDrawable">@drawable/ic_android_black_24dp</item>
+        <item name="sliSubTitle">@string/bottom_sheet_behavior</item>-->
     </style>
 
 </resources>

@@ -1,9 +1,5 @@
 [
     {
-        "merged": "E:\\RealHustle\\CodeBase\\app\\build\\intermediates\\res\\merged\\debug\\layout_view_filterable_list_view.xml.flat",
-        "source": "C:\\Users\\Tosh\\.gradle\\caches\\transforms-1\\files-1.1\\ToshBaseCode--SNAPSHOT.aar\\db6910fa594b3d3a9f7017b54a953e6e\\res\\layout\\view_filterable_list_view.xml"
-    },
-    {
         "merged": "E:\\RealHustle\\CodeBase\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_list_selector_holo_light.xml.flat",
         "source": "C:\\Users\\Tosh\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\bd1e42b99a98f21730c6af56be327752\\res\\drawable\\abc_list_selector_holo_light.xml"
     },
@@ -89,11 +85,11 @@
     },
     {
         "merged": "E:\\RealHustle\\CodeBase\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_refresh_black_24dp.xml.flat",
-        "source": "C:\\Users\\Tosh\\.gradle\\caches\\transforms-1\\files-1.1\\ToshBaseCode--SNAPSHOT.aar\\db6910fa594b3d3a9f7017b54a953e6e\\res\\drawable-anydpi-v21\\ic_refresh_black_24dp.xml"
+        "source": "C:\\Users\\Tosh\\.gradle\\caches\\transforms-1\\files-1.1\\basecode--SNAPSHOT.aar\\7e83e7669810cdb6490247a91517b7a2\\res\\drawable-anydpi-v21\\ic_refresh_black_24dp.xml"
     },
     {
         "merged": "E:\\RealHustle\\CodeBase\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_keyboard_black_24dp.xml.flat",
-        "source": "C:\\Users\\Tosh\\.gradle\\caches\\transforms-1\\files-1.1\\ToshBaseCode--SNAPSHOT.aar\\db6910fa594b3d3a9f7017b54a953e6e\\res\\drawable-anydpi-v21\\ic_keyboard_black_24dp.xml"
+        "source": "C:\\Users\\Tosh\\.gradle\\caches\\transforms-1\\files-1.1\\basecode--SNAPSHOT.aar\\7e83e7669810cdb6490247a91517b7a2\\res\\drawable-anydpi-v21\\ic_keyboard_black_24dp.xml"
     },
     {
         "merged": "E:\\RealHustle\\CodeBase\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_ic_star_half_black_16dp.png.flat",
@@ -133,7 +129,7 @@
     },
     {
         "merged": "E:\\RealHustle\\CodeBase\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_ic_refresh_black_24dp.png.flat",
-        "source": "C:\\Users\\Tosh\\.gradle\\caches\\transforms-1\\files-1.1\\ToshBaseCode--SNAPSHOT.aar\\db6910fa594b3d3a9f7017b54a953e6e\\res\\drawable-hdpi-v4\\ic_refresh_black_24dp.png"
+        "source": "C:\\Users\\Tosh\\.gradle\\caches\\transforms-1\\files-1.1\\basecode--SNAPSHOT.aar\\7e83e7669810cdb6490247a91517b7a2\\res\\drawable-hdpi-v4\\ic_refresh_black_24dp.png"
     },
     {
         "merged": "E:\\RealHustle\\CodeBase\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_btn_switch_to_on_mtrl_00012.9.png.flat",
@@ -161,7 +157,7 @@
     },
     {
         "merged": "E:\\RealHustle\\CodeBase\\app\\build\\intermediates\\res\\merged\\debug\\layout_view_load_fresh.xml.flat",
-        "source": "C:\\Users\\Tosh\\.gradle\\caches\\transforms-1\\files-1.1\\ToshBaseCode--SNAPSHOT.aar\\db6910fa594b3d3a9f7017b54a953e6e\\res\\layout\\view_load_fresh.xml"
+        "source": "C:\\Users\\Tosh\\.gradle\\caches\\transforms-1\\files-1.1\\dataloading--SNAPSHOT.aar\\c924fedf286411cdb600b6076cc282a6\\res\\layout\\view_load_fresh.xml"
     },
     {
         "merged": "E:\\RealHustle\\CodeBase\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21_design_password_eye.xml.flat",
@@ -241,7 +237,7 @@
     },
     {
         "merged": "E:\\RealHustle\\CodeBase\\app\\build\\intermediates\\res\\merged\\debug\\anim_hold.xml.flat",
-        "source": "C:\\Users\\Tosh\\.gradle\\caches\\transforms-1\\files-1.1\\ToshBaseCode--SNAPSHOT.aar\\db6910fa594b3d3a9f7017b54a953e6e\\res\\anim\\hold.xml"
+        "source": "C:\\Users\\Tosh\\.gradle\\caches\\transforms-1\\files-1.1\\basecode--SNAPSHOT.aar\\7e83e7669810cdb6490247a91517b7a2\\res\\anim\\hold.xml"
     },
     {
         "merged": "E:\\RealHustle\\CodeBase\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_seekbar_tick_mark_material.xml.flat",
@@ -257,7 +253,7 @@
     },
     {
         "merged": "E:\\RealHustle\\CodeBase\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_ic_refresh_black_24dp.png.flat",
-        "source": "C:\\Users\\Tosh\\.gradle\\caches\\transforms-1\\files-1.1\\ToshBaseCode--SNAPSHOT.aar\\db6910fa594b3d3a9f7017b54a953e6e\\res\\drawable-xhdpi-v4\\ic_refresh_black_24dp.png"
+        "source": "C:\\Users\\Tosh\\.gradle\\caches\\transforms-1\\files-1.1\\basecode--SNAPSHOT.aar\\7e83e7669810cdb6490247a91517b7a2\\res\\drawable-xhdpi-v4\\ic_refresh_black_24dp.png"
     },
     {
         "merged": "E:\\RealHustle\\CodeBase\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_menu_hardkey_panel_mtrl_mult.9.png.flat",
@@ -266,10 +262,6 @@
     {
         "merged": "E:\\RealHustle\\CodeBase\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_list_focused_holo.9.png.flat",
         "source": "C:\\Users\\Tosh\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\bd1e42b99a98f21730c6af56be327752\\res\\drawable-xxhdpi-v4\\abc_list_focused_holo.9.png"
-    },
-    {
-        "merged": "E:\\RealHustle\\CodeBase\\app\\build\\intermediates\\res\\merged\\debug\\layout_layout_fake_shadow.xml.flat",
-        "source": "C:\\Users\\Tosh\\.gradle\\caches\\transforms-1\\files-1.1\\ToshBaseCode--SNAPSHOT.aar\\db6910fa594b3d3a9f7017b54a953e6e\\res\\layout\\layout_fake_shadow.xml"
     },
     {
         "merged": "E:\\RealHustle\\CodeBase\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldrtl-xhdpi-v17_abc_spinner_mtrl_am_alpha.9.png.flat",
@@ -317,7 +309,7 @@
     },
     {
         "merged": "E:\\RealHustle\\CodeBase\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_ic_refresh_black_24dp.png.flat",
-        "source": "C:\\Users\\Tosh\\.gradle\\caches\\transforms-1\\files-1.1\\ToshBaseCode--SNAPSHOT.aar\\db6910fa594b3d3a9f7017b54a953e6e\\res\\drawable-mdpi-v4\\ic_refresh_black_24dp.png"
+        "source": "C:\\Users\\Tosh\\.gradle\\caches\\transforms-1\\files-1.1\\basecode--SNAPSHOT.aar\\7e83e7669810cdb6490247a91517b7a2\\res\\drawable-mdpi-v4\\ic_refresh_black_24dp.png"
     },
     {
         "merged": "E:\\RealHustle\\CodeBase\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_text_select_handle_right_mtrl_light.png.flat",
@@ -325,7 +317,7 @@
     },
     {
         "merged": "E:\\RealHustle\\CodeBase\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_ic_keyboard_black_24dp.png.flat",
-        "source": "C:\\Users\\Tosh\\.gradle\\caches\\transforms-1\\files-1.1\\ToshBaseCode--SNAPSHOT.aar\\db6910fa594b3d3a9f7017b54a953e6e\\res\\drawable-xxxhdpi-v4\\ic_keyboard_black_24dp.png"
+        "source": "C:\\Users\\Tosh\\.gradle\\caches\\transforms-1\\files-1.1\\basecode--SNAPSHOT.aar\\7e83e7669810cdb6490247a91517b7a2\\res\\drawable-xxxhdpi-v4\\ic_keyboard_black_24dp.png"
     },
     {
         "merged": "E:\\RealHustle\\CodeBase\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_design_ic_visibility.png.flat",
@@ -333,7 +325,7 @@
     },
     {
         "merged": "E:\\RealHustle\\CodeBase\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_ic_keyboard_black_24dp.png.flat",
-        "source": "C:\\Users\\Tosh\\.gradle\\caches\\transforms-1\\files-1.1\\ToshBaseCode--SNAPSHOT.aar\\db6910fa594b3d3a9f7017b54a953e6e\\res\\drawable-xhdpi-v4\\ic_keyboard_black_24dp.png"
+        "source": "C:\\Users\\Tosh\\.gradle\\caches\\transforms-1\\files-1.1\\basecode--SNAPSHOT.aar\\7e83e7669810cdb6490247a91517b7a2\\res\\drawable-xhdpi-v4\\ic_keyboard_black_24dp.png"
     },
     {
         "merged": "E:\\RealHustle\\CodeBase\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_ic_format_list_bulleted_black_24dp.png.flat",
@@ -353,15 +345,11 @@
     },
     {
         "merged": "E:\\RealHustle\\CodeBase\\app\\build\\intermediates\\res\\merged\\debug\\anim_cycle_2.xml.flat",
-        "source": "C:\\Users\\Tosh\\.gradle\\caches\\transforms-1\\files-1.1\\ToshBaseCode--SNAPSHOT.aar\\db6910fa594b3d3a9f7017b54a953e6e\\res\\anim\\cycle_2.xml"
+        "source": "C:\\Users\\Tosh\\.gradle\\caches\\transforms-1\\files-1.1\\basecode--SNAPSHOT.aar\\7e83e7669810cdb6490247a91517b7a2\\res\\anim\\cycle_2.xml"
     },
     {
         "merged": "E:\\RealHustle\\CodeBase\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_abc_ic_menu_paste_mtrl_am_alpha.png.flat",
         "source": "C:\\Users\\Tosh\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\bd1e42b99a98f21730c6af56be327752\\res\\drawable-xxxhdpi-v4\\abc_ic_menu_paste_mtrl_am_alpha.png"
-    },
-    {
-        "merged": "E:\\RealHustle\\CodeBase\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_camera__capture_photo_button.xml.flat",
-        "source": "C:\\Users\\Tosh\\.gradle\\caches\\transforms-1\\files-1.1\\ToshBaseCode--SNAPSHOT.aar\\db6910fa594b3d3a9f7017b54a953e6e\\res\\drawable-xhdpi-v4\\camera__capture_photo_button.xml"
     },
     {
         "merged": "E:\\RealHustle\\CodeBase\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_abc_switch_track_mtrl_alpha.9.png.flat",
@@ -370,10 +358,6 @@
     {
         "merged": "E:\\RealHustle\\CodeBase\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_spinner_mtrl_am_alpha.9.png.flat",
         "source": "C:\\Users\\Tosh\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\bd1e42b99a98f21730c6af56be327752\\res\\drawable-xxhdpi-v4\\abc_spinner_mtrl_am_alpha.9.png"
-    },
-    {
-        "merged": "E:\\RealHustle\\CodeBase\\app\\build\\intermediates\\res\\merged\\debug\\layout_view_dashboard_item.xml.flat",
-        "source": "C:\\Users\\Tosh\\.gradle\\caches\\transforms-1\\files-1.1\\ToshBaseCode--SNAPSHOT.aar\\db6910fa594b3d3a9f7017b54a953e6e\\res\\layout\\view_dashboard_item.xml"
     },
     {
         "merged": "E:\\RealHustle\\CodeBase\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_ic_menu_copy_mtrl_am_alpha.png.flat",
@@ -528,10 +512,6 @@
         "source": "E:\\RealHustle\\CodeBase\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_launcher_background.png"
     },
     {
-        "merged": "E:\\RealHustle\\CodeBase\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_camera_snap_selected.png.flat",
-        "source": "C:\\Users\\Tosh\\.gradle\\caches\\transforms-1\\files-1.1\\ToshBaseCode--SNAPSHOT.aar\\db6910fa594b3d3a9f7017b54a953e6e\\res\\drawable-xhdpi-v4\\camera_snap_selected.png"
-    },
-    {
         "merged": "E:\\RealHustle\\CodeBase\\app\\build\\intermediates\\res\\merged\\debug\\anim_abc_slide_in_bottom.xml.flat",
         "source": "C:\\Users\\Tosh\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\bd1e42b99a98f21730c6af56be327752\\res\\anim\\abc_slide_in_bottom.xml"
     },
@@ -562,10 +542,6 @@
     {
         "merged": "E:\\RealHustle\\CodeBase\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_ic_arrow_drop_right_black_24dp.xml.flat",
         "source": "C:\\Users\\Tosh\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\bd1e42b99a98f21730c6af56be327752\\res\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml"
-    },
-    {
-        "merged": "E:\\RealHustle\\CodeBase\\app\\build\\intermediates\\res\\merged\\debug\\layout_showcase_content.xml.flat",
-        "source": "C:\\Users\\Tosh\\.gradle\\caches\\transforms-1\\files-1.1\\ToshBaseCode--SNAPSHOT.aar\\db6910fa594b3d3a9f7017b54a953e6e\\res\\layout\\showcase_content.xml"
     },
     {
         "merged": "E:\\RealHustle\\CodeBase\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_spinner_textfield_background_material.xml.flat",
@@ -654,10 +630,6 @@
     {
         "merged": "E:\\RealHustle\\CodeBase\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_textfield_search_default_mtrl_alpha.9.png.flat",
         "source": "C:\\Users\\Tosh\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\bd1e42b99a98f21730c6af56be327752\\res\\drawable-xxhdpi-v4\\abc_textfield_search_default_mtrl_alpha.9.png"
-    },
-    {
-        "merged": "E:\\RealHustle\\CodeBase\\app\\build\\intermediates\\res\\merged\\debug\\layout_sample_fake_shadow_view.xml.flat",
-        "source": "C:\\Users\\Tosh\\.gradle\\caches\\transforms-1\\files-1.1\\ToshBaseCode--SNAPSHOT.aar\\db6910fa594b3d3a9f7017b54a953e6e\\res\\layout\\sample_fake_shadow_view.xml"
     },
     {
         "merged": "E:\\RealHustle\\CodeBase\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_btn_check_material.xml.flat",
@@ -752,10 +724,6 @@
         "source": "E:\\RealHustle\\CodeBase\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_foreground.png"
     },
     {
-        "merged": "E:\\RealHustle\\CodeBase\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_camera_camera.png.flat",
-        "source": "C:\\Users\\Tosh\\.gradle\\caches\\transforms-1\\files-1.1\\ToshBaseCode--SNAPSHOT.aar\\db6910fa594b3d3a9f7017b54a953e6e\\res\\drawable-xhdpi-v4\\camera_camera.png"
-    },
-    {
         "merged": "E:\\RealHustle\\CodeBase\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4_ic_format_indent_increase_black_24dp.png.flat",
         "source": "C:\\Users\\Tosh\\.gradle\\caches\\transforms-1\\files-1.1\\editor--SNAPSHOT.aar\\f8f71e0ada89a542acfa0e361cbce2f0\\res\\drawable-ldpi-v4\\ic_format_indent_increase_black_24dp.png"
     },
@@ -817,15 +785,11 @@
     },
     {
         "merged": "E:\\RealHustle\\CodeBase\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4_ic_refresh_black_24dp.png.flat",
-        "source": "C:\\Users\\Tosh\\.gradle\\caches\\transforms-1\\files-1.1\\ToshBaseCode--SNAPSHOT.aar\\db6910fa594b3d3a9f7017b54a953e6e\\res\\drawable-ldpi-v4\\ic_refresh_black_24dp.png"
+        "source": "C:\\Users\\Tosh\\.gradle\\caches\\transforms-1\\files-1.1\\basecode--SNAPSHOT.aar\\7e83e7669810cdb6490247a91517b7a2\\res\\drawable-ldpi-v4\\ic_refresh_black_24dp.png"
     },
     {
         "merged": "E:\\RealHustle\\CodeBase\\app\\build\\intermediates\\res\\merged\\debug\\menu_main.xml.flat",
         "source": "E:\\RealHustle\\CodeBase\\app\\src\\main\\res\\menu\\main.xml"
-    },
-    {
-        "merged": "E:\\RealHustle\\CodeBase\\app\\build\\intermediates\\res\\merged\\debug\\drawable_background_normal_fine_network_image.xml.flat",
-        "source": "C:\\Users\\Tosh\\.gradle\\caches\\transforms-1\\files-1.1\\ToshBaseCode--SNAPSHOT.aar\\db6910fa594b3d3a9f7017b54a953e6e\\res\\drawable\\background_normal_fine_network_image.xml"
     },
     {
         "merged": "E:\\RealHustle\\CodeBase\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
@@ -893,7 +857,7 @@
     },
     {
         "merged": "E:\\RealHustle\\CodeBase\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_ic_refresh_black_24dp.png.flat",
-        "source": "C:\\Users\\Tosh\\.gradle\\caches\\transforms-1\\files-1.1\\ToshBaseCode--SNAPSHOT.aar\\db6910fa594b3d3a9f7017b54a953e6e\\res\\drawable-xxhdpi-v4\\ic_refresh_black_24dp.png"
+        "source": "C:\\Users\\Tosh\\.gradle\\caches\\transforms-1\\files-1.1\\basecode--SNAPSHOT.aar\\7e83e7669810cdb6490247a91517b7a2\\res\\drawable-xxhdpi-v4\\ic_refresh_black_24dp.png"
     },
     {
         "merged": "E:\\RealHustle\\CodeBase\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_abc_ic_star_half_black_16dp.png.flat",
@@ -965,7 +929,7 @@
     },
     {
         "merged": "E:\\RealHustle\\CodeBase\\app\\build\\intermediates\\res\\merged\\debug\\layout_view_progress_dialog.xml.flat",
-        "source": "C:\\Users\\Tosh\\.gradle\\caches\\transforms-1\\files-1.1\\ToshBaseCode--SNAPSHOT.aar\\db6910fa594b3d3a9f7017b54a953e6e\\res\\layout\\view_progress_dialog.xml"
+        "source": "C:\\Users\\Tosh\\.gradle\\caches\\transforms-1\\files-1.1\\basecode--SNAPSHOT.aar\\7e83e7669810cdb6490247a91517b7a2\\res\\layout\\view_progress_dialog.xml"
     },
     {
         "merged": "E:\\RealHustle\\CodeBase\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_cab_background_top_mtrl_alpha.9.png.flat",
@@ -997,11 +961,7 @@
     },
     {
         "merged": "E:\\RealHustle\\CodeBase\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_model_list_collapsible.xml.flat",
-        "source": "C:\\Users\\Tosh\\.gradle\\caches\\transforms-1\\files-1.1\\ToshBaseCode--SNAPSHOT.aar\\db6910fa594b3d3a9f7017b54a953e6e\\res\\layout\\fragment_model_list_collapsible.xml"
-    },
-    {
-        "merged": "E:\\RealHustle\\CodeBase\\app\\build\\intermediates\\res\\merged\\debug\\layout_view_network_image.xml.flat",
-        "source": "C:\\Users\\Tosh\\.gradle\\caches\\transforms-1\\files-1.1\\ToshBaseCode--SNAPSHOT.aar\\db6910fa594b3d3a9f7017b54a953e6e\\res\\layout\\view_network_image.xml"
+        "source": "C:\\Users\\Tosh\\.gradle\\caches\\transforms-1\\files-1.1\\dataloading--SNAPSHOT.aar\\c924fedf286411cdb600b6076cc282a6\\res\\layout\\fragment_model_list_collapsible.xml"
     },
     {
         "merged": "E:\\RealHustle\\CodeBase\\app\\build\\intermediates\\res\\merged\\debug\\color_abc_primary_text_material_dark.xml.flat",
@@ -1025,7 +985,7 @@
     },
     {
         "merged": "E:\\RealHustle\\CodeBase\\app\\build\\intermediates\\res\\merged\\debug\\layout_view_empty_state.xml.flat",
-        "source": "C:\\Users\\Tosh\\.gradle\\caches\\transforms-1\\files-1.1\\ToshBaseCode--SNAPSHOT.aar\\db6910fa594b3d3a9f7017b54a953e6e\\res\\layout\\view_empty_state.xml"
+        "source": "C:\\Users\\Tosh\\.gradle\\caches\\transforms-1\\files-1.1\\dataloading--SNAPSHOT.aar\\c924fedf286411cdb600b6076cc282a6\\res\\layout\\view_empty_state.xml"
     },
     {
         "merged": "E:\\RealHustle\\CodeBase\\app\\build\\intermediates\\res\\merged\\debug\\menu_activity_base_app.xml.flat",
@@ -1152,10 +1112,6 @@
         "source": "C:\\Users\\Tosh\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\bd1e42b99a98f21730c6af56be327752\\res\\drawable-mdpi-v4\\abc_btn_switch_to_on_mtrl_00012.9.png"
     },
     {
-        "merged": "E:\\RealHustle\\CodeBase\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_camera__toggle_flash.png.flat",
-        "source": "C:\\Users\\Tosh\\.gradle\\caches\\transforms-1\\files-1.1\\ToshBaseCode--SNAPSHOT.aar\\db6910fa594b3d3a9f7017b54a953e6e\\res\\drawable-xhdpi-v4\\camera__toggle_flash.png"
-    },
-    {
         "merged": "E:\\RealHustle\\CodeBase\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_abc_btn_check_to_on_mtrl_000.png.flat",
         "source": "C:\\Users\\Tosh\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\bd1e42b99a98f21730c6af56be327752\\res\\drawable-xxxhdpi-v4\\abc_btn_check_to_on_mtrl_000.png"
     },
@@ -1174,10 +1130,6 @@
     {
         "merged": "E:\\RealHustle\\CodeBase\\app\\build\\intermediates\\res\\merged\\debug\\color-v23_abc_color_highlight_material.xml.flat",
         "source": "C:\\Users\\Tosh\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\bd1e42b99a98f21730c6af56be327752\\res\\color-v23\\abc_color_highlight_material.xml"
-    },
-    {
-        "merged": "E:\\RealHustle\\CodeBase\\app\\build\\intermediates\\res\\merged\\debug\\layout_sample_line_view.xml.flat",
-        "source": "C:\\Users\\Tosh\\.gradle\\caches\\transforms-1\\files-1.1\\ToshBaseCode--SNAPSHOT.aar\\db6910fa594b3d3a9f7017b54a953e6e\\res\\layout\\sample_line_view.xml"
     },
     {
         "merged": "E:\\RealHustle\\CodeBase\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_textfield_default_mtrl_alpha.9.png.flat",
@@ -1289,7 +1241,7 @@
     },
     {
         "merged": "E:\\RealHustle\\CodeBase\\app\\build\\intermediates\\res\\merged\\debug\\anim_slide_right_out.xml.flat",
-        "source": "C:\\Users\\Tosh\\.gradle\\caches\\transforms-1\\files-1.1\\ToshBaseCode--SNAPSHOT.aar\\db6910fa594b3d3a9f7017b54a953e6e\\res\\anim\\slide_right_out.xml"
+        "source": "C:\\Users\\Tosh\\.gradle\\caches\\transforms-1\\files-1.1\\basecode--SNAPSHOT.aar\\7e83e7669810cdb6490247a91517b7a2\\res\\anim\\slide_right_out.xml"
     },
     {
         "merged": "E:\\RealHustle\\CodeBase\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_ic_bug_report_black_24dp.png.flat",
@@ -1541,7 +1493,7 @@
     },
     {
         "merged": "E:\\RealHustle\\CodeBase\\app\\build\\intermediates\\res\\merged\\debug\\layout_content_camera.xml.flat",
-        "source": "C:\\Users\\Tosh\\.gradle\\caches\\transforms-1\\files-1.1\\ToshBaseCode--SNAPSHOT.aar\\db6910fa594b3d3a9f7017b54a953e6e\\res\\layout\\content_camera.xml"
+        "source": "C:\\Users\\Tosh\\.gradle\\caches\\transforms-1\\files-1.1\\camera--SNAPSHOT.aar\\e19ec5bfe8bdd534854dec8a2c61184f\\res\\layout\\content_camera.xml"
     },
     {
         "merged": "E:\\RealHustle\\CodeBase\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_users_top_view.xml.flat",
@@ -1573,7 +1525,7 @@
     },
     {
         "merged": "E:\\RealHustle\\CodeBase\\app\\build\\intermediates\\res\\merged\\debug\\layout_layout_simple_recyclerview.xml.flat",
-        "source": "C:\\Users\\Tosh\\.gradle\\caches\\transforms-1\\files-1.1\\ToshBaseCode--SNAPSHOT.aar\\db6910fa594b3d3a9f7017b54a953e6e\\res\\layout\\layout_simple_recyclerview.xml"
+        "source": "C:\\Users\\Tosh\\.gradle\\caches\\transforms-1\\files-1.1\\dataloading--SNAPSHOT.aar\\c924fedf286411cdb600b6076cc282a6\\res\\layout\\layout_simple_recyclerview.xml"
     },
     {
         "merged": "E:\\RealHustle\\CodeBase\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_abc_ic_star_half_black_36dp.png.flat",
@@ -1645,7 +1597,7 @@
     },
     {
         "merged": "E:\\RealHustle\\CodeBase\\app\\build\\intermediates\\res\\merged\\debug\\anim_slide_left_in.xml.flat",
-        "source": "C:\\Users\\Tosh\\.gradle\\caches\\transforms-1\\files-1.1\\ToshBaseCode--SNAPSHOT.aar\\db6910fa594b3d3a9f7017b54a953e6e\\res\\anim\\slide_left_in.xml"
+        "source": "C:\\Users\\Tosh\\.gradle\\caches\\transforms-1\\files-1.1\\basecode--SNAPSHOT.aar\\7e83e7669810cdb6490247a91517b7a2\\res\\anim\\slide_left_in.xml"
     },
     {
         "merged": "E:\\RealHustle\\CodeBase\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_notification_bg_low_pressed.9.png.flat",
@@ -1666,10 +1618,6 @@
     {
         "merged": "E:\\RealHustle\\CodeBase\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_ic_commit_search_api_mtrl_alpha.png.flat",
         "source": "C:\\Users\\Tosh\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\bd1e42b99a98f21730c6af56be327752\\res\\drawable-xxhdpi-v4\\abc_ic_commit_search_api_mtrl_alpha.png"
-    },
-    {
-        "merged": "E:\\RealHustle\\CodeBase\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_camera_snap_unselected.png.flat",
-        "source": "C:\\Users\\Tosh\\.gradle\\caches\\transforms-1\\files-1.1\\ToshBaseCode--SNAPSHOT.aar\\db6910fa594b3d3a9f7017b54a953e6e\\res\\drawable-xhdpi-v4\\camera_snap_unselected.png"
     },
     {
         "merged": "E:\\RealHustle\\CodeBase\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_format_list_numbered_black_24dp.xml.flat",
@@ -1781,7 +1729,7 @@
     },
     {
         "merged": "E:\\RealHustle\\CodeBase\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_model_list_not_collapsible.xml.flat",
-        "source": "C:\\Users\\Tosh\\.gradle\\caches\\transforms-1\\files-1.1\\ToshBaseCode--SNAPSHOT.aar\\db6910fa594b3d3a9f7017b54a953e6e\\res\\layout\\fragment_model_list_not_collapsible.xml"
+        "source": "C:\\Users\\Tosh\\.gradle\\caches\\transforms-1\\files-1.1\\dataloading--SNAPSHOT.aar\\c924fedf286411cdb600b6076cc282a6\\res\\layout\\fragment_model_list_not_collapsible.xml"
     },
     {
         "merged": "E:\\RealHustle\\CodeBase\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_text_cursor_material.xml.flat",
@@ -1817,15 +1765,15 @@
     },
     {
         "merged": "E:\\RealHustle\\CodeBase\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4_ic_keyboard_black_24dp.png.flat",
-        "source": "C:\\Users\\Tosh\\.gradle\\caches\\transforms-1\\files-1.1\\ToshBaseCode--SNAPSHOT.aar\\db6910fa594b3d3a9f7017b54a953e6e\\res\\drawable-ldpi-v4\\ic_keyboard_black_24dp.png"
+        "source": "C:\\Users\\Tosh\\.gradle\\caches\\transforms-1\\files-1.1\\basecode--SNAPSHOT.aar\\7e83e7669810cdb6490247a91517b7a2\\res\\drawable-ldpi-v4\\ic_keyboard_black_24dp.png"
     },
     {
         "merged": "E:\\RealHustle\\CodeBase\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_ic_keyboard_black_24dp.png.flat",
-        "source": "C:\\Users\\Tosh\\.gradle\\caches\\transforms-1\\files-1.1\\ToshBaseCode--SNAPSHOT.aar\\db6910fa594b3d3a9f7017b54a953e6e\\res\\drawable-hdpi-v4\\ic_keyboard_black_24dp.png"
+        "source": "C:\\Users\\Tosh\\.gradle\\caches\\transforms-1\\files-1.1\\basecode--SNAPSHOT.aar\\7e83e7669810cdb6490247a91517b7a2\\res\\drawable-hdpi-v4\\ic_keyboard_black_24dp.png"
     },
     {
         "merged": "E:\\RealHustle\\CodeBase\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_ic_keyboard_black_24dp.png.flat",
-        "source": "C:\\Users\\Tosh\\.gradle\\caches\\transforms-1\\files-1.1\\ToshBaseCode--SNAPSHOT.aar\\db6910fa594b3d3a9f7017b54a953e6e\\res\\drawable-mdpi-v4\\ic_keyboard_black_24dp.png"
+        "source": "C:\\Users\\Tosh\\.gradle\\caches\\transforms-1\\files-1.1\\basecode--SNAPSHOT.aar\\7e83e7669810cdb6490247a91517b7a2\\res\\drawable-mdpi-v4\\ic_keyboard_black_24dp.png"
     },
     {
         "merged": "E:\\RealHustle\\CodeBase\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_ic_star_black_36dp.png.flat",
@@ -1853,7 +1801,7 @@
     },
     {
         "merged": "E:\\RealHustle\\CodeBase\\app\\build\\intermediates\\res\\merged\\debug\\layout_view_load_more.xml.flat",
-        "source": "C:\\Users\\Tosh\\.gradle\\caches\\transforms-1\\files-1.1\\ToshBaseCode--SNAPSHOT.aar\\db6910fa594b3d3a9f7017b54a953e6e\\res\\layout\\view_load_more.xml"
+        "source": "C:\\Users\\Tosh\\.gradle\\caches\\transforms-1\\files-1.1\\dataloading--SNAPSHOT.aar\\c924fedf286411cdb600b6076cc282a6\\res\\layout\\view_load_more.xml"
     },
     {
         "merged": "E:\\RealHustle\\CodeBase\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_text_select_handle_left_mtrl_dark.png.flat",
@@ -1861,7 +1809,7 @@
     },
     {
         "merged": "E:\\RealHustle\\CodeBase\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_camera.xml.flat",
-        "source": "C:\\Users\\Tosh\\.gradle\\caches\\transforms-1\\files-1.1\\ToshBaseCode--SNAPSHOT.aar\\db6910fa594b3d3a9f7017b54a953e6e\\res\\layout\\fragment_camera.xml"
+        "source": "C:\\Users\\Tosh\\.gradle\\caches\\transforms-1\\files-1.1\\camera--SNAPSHOT.aar\\e19ec5bfe8bdd534854dec8a2c61184f\\res\\layout\\fragment_camera.xml"
     },
     {
         "merged": "E:\\RealHustle\\CodeBase\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_ic_star_half_black_16dp.png.flat",
@@ -1869,7 +1817,7 @@
     },
     {
         "merged": "E:\\RealHustle\\CodeBase\\app\\build\\intermediates\\res\\merged\\debug\\anim_shake_error.xml.flat",
-        "source": "C:\\Users\\Tosh\\.gradle\\caches\\transforms-1\\files-1.1\\ToshBaseCode--SNAPSHOT.aar\\db6910fa594b3d3a9f7017b54a953e6e\\res\\anim\\shake_error.xml"
+        "source": "C:\\Users\\Tosh\\.gradle\\caches\\transforms-1\\files-1.1\\basecode--SNAPSHOT.aar\\7e83e7669810cdb6490247a91517b7a2\\res\\anim\\shake_error.xml"
     },
     {
         "merged": "E:\\RealHustle\\CodeBase\\app\\build\\intermediates\\res\\merged\\debug\\drawable_camera_snap_selected.png.flat",
@@ -1902,10 +1850,6 @@
     {
         "merged": "E:\\RealHustle\\CodeBase\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_popup_menu_header_item_layout.xml.flat",
         "source": "C:\\Users\\Tosh\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\bd1e42b99a98f21730c6af56be327752\\res\\layout\\abc_popup_menu_header_item_layout.xml"
-    },
-    {
-        "merged": "E:\\RealHustle\\CodeBase\\app\\build\\intermediates\\res\\merged\\debug\\drawable_background_fake_shadow.xml.flat",
-        "source": "C:\\Users\\Tosh\\.gradle\\caches\\transforms-1\\files-1.1\\ToshBaseCode--SNAPSHOT.aar\\db6910fa594b3d3a9f7017b54a953e6e\\res\\drawable\\background_fake_shadow.xml"
     },
     {
         "merged": "E:\\RealHustle\\CodeBase\\app\\build\\intermediates\\res\\merged\\debug\\layout-v16_notification_template_custom_big.xml.flat",
@@ -1941,7 +1885,7 @@
     },
     {
         "merged": "E:\\RealHustle\\CodeBase\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_ic_keyboard_black_24dp.png.flat",
-        "source": "C:\\Users\\Tosh\\.gradle\\caches\\transforms-1\\files-1.1\\ToshBaseCode--SNAPSHOT.aar\\db6910fa594b3d3a9f7017b54a953e6e\\res\\drawable-xxhdpi-v4\\ic_keyboard_black_24dp.png"
+        "source": "C:\\Users\\Tosh\\.gradle\\caches\\transforms-1\\files-1.1\\basecode--SNAPSHOT.aar\\7e83e7669810cdb6490247a91517b7a2\\res\\drawable-xxhdpi-v4\\ic_keyboard_black_24dp.png"
     },
     {
         "merged": "E:\\RealHustle\\CodeBase\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_abc_ic_menu_selectall_mtrl_alpha.png.flat",
@@ -2016,16 +1960,8 @@
         "source": "C:\\Users\\Tosh\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\bd1e42b99a98f21730c6af56be327752\\res\\drawable-mdpi-v4\\abc_switch_track_mtrl_alpha.9.png"
     },
     {
-        "merged": "E:\\RealHustle\\CodeBase\\app\\build\\intermediates\\res\\merged\\debug\\drawable_background_dashboard_item.xml.flat",
-        "source": "C:\\Users\\Tosh\\.gradle\\caches\\transforms-1\\files-1.1\\ToshBaseCode--SNAPSHOT.aar\\db6910fa594b3d3a9f7017b54a953e6e\\res\\drawable\\background_dashboard_item.xml"
-    },
-    {
         "merged": "E:\\RealHustle\\CodeBase\\app\\build\\intermediates\\res\\merged\\debug\\layout_content_main.xml.flat",
         "source": "E:\\RealHustle\\CodeBase\\app\\src\\main\\res\\layout\\content_main.xml"
-    },
-    {
-        "merged": "E:\\RealHustle\\CodeBase\\app\\build\\intermediates\\res\\merged\\debug\\layout_view_simple_list_item.xml.flat",
-        "source": "C:\\Users\\Tosh\\.gradle\\caches\\transforms-1\\files-1.1\\ToshBaseCode--SNAPSHOT.aar\\db6910fa594b3d3a9f7017b54a953e6e\\res\\layout\\view_simple_list_item.xml"
     },
     {
         "merged": "E:\\RealHustle\\CodeBase\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_design_ic_visibility_off.png.flat",
@@ -2141,7 +2077,7 @@
     },
     {
         "merged": "E:\\RealHustle\\CodeBase\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_edit_save_photo.xml.flat",
-        "source": "C:\\Users\\Tosh\\.gradle\\caches\\transforms-1\\files-1.1\\ToshBaseCode--SNAPSHOT.aar\\db6910fa594b3d3a9f7017b54a953e6e\\res\\layout\\fragment_edit_save_photo.xml"
+        "source": "C:\\Users\\Tosh\\.gradle\\caches\\transforms-1\\files-1.1\\camera--SNAPSHOT.aar\\e19ec5bfe8bdd534854dec8a2c61184f\\res\\layout\\fragment_edit_save_photo.xml"
     },
     {
         "merged": "E:\\RealHustle\\CodeBase\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_ic_star_half_black_48dp.png.flat",
@@ -2188,16 +2124,8 @@
         "source": "C:\\Users\\Tosh\\.gradle\\caches\\transforms-1\\files-1.1\\SimpleRecyclerView-1.2.3.aar\\27a70bb51f6f0fd5a2f9cebac18cc51d\\res\\layout\\interval_view.xml"
     },
     {
-        "merged": "E:\\RealHustle\\CodeBase\\app\\build\\intermediates\\res\\merged\\debug\\layout_content_crop.xml.flat",
-        "source": "C:\\Users\\Tosh\\.gradle\\caches\\transforms-1\\files-1.1\\ToshBaseCode--SNAPSHOT.aar\\db6910fa594b3d3a9f7017b54a953e6e\\res\\layout\\content_crop.xml"
-    },
-    {
         "merged": "E:\\RealHustle\\CodeBase\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_design_ic_visibility.xml.flat",
         "source": "C:\\Users\\Tosh\\.gradle\\caches\\transforms-1\\files-1.1\\design-27.0.2.aar\\64a75ee951c1645ba2e6fe3995312719\\res\\drawable-anydpi-v21\\design_ic_visibility.xml"
-    },
-    {
-        "merged": "E:\\RealHustle\\CodeBase\\app\\build\\intermediates\\res\\merged\\debug\\menu_activity_base.xml.flat",
-        "source": "C:\\Users\\Tosh\\.gradle\\caches\\transforms-1\\files-1.1\\ToshBaseCode--SNAPSHOT.aar\\db6910fa594b3d3a9f7017b54a953e6e\\res\\menu\\activity_base.xml"
     },
     {
         "merged": "E:\\RealHustle\\CodeBase\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_ic_format_list_numbered_black_24dp.png.flat",
@@ -2253,7 +2181,7 @@
     },
     {
         "merged": "E:\\RealHustle\\CodeBase\\app\\build\\intermediates\\res\\merged\\debug\\drawable_progress.xml.flat",
-        "source": "C:\\Users\\Tosh\\.gradle\\caches\\transforms-1\\files-1.1\\ToshBaseCode--SNAPSHOT.aar\\db6910fa594b3d3a9f7017b54a953e6e\\res\\drawable\\progress.xml"
+        "source": "C:\\Users\\Tosh\\.gradle\\caches\\transforms-1\\files-1.1\\basecode--SNAPSHOT.aar\\7e83e7669810cdb6490247a91517b7a2\\res\\drawable\\progress.xml"
     },
     {
         "merged": "E:\\RealHustle\\CodeBase\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_ic_format_indent_decrease_black_24dp.png.flat",
@@ -2457,7 +2385,7 @@
     },
     {
         "merged": "E:\\RealHustle\\CodeBase\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_ic_refresh_black_24dp.png.flat",
-        "source": "C:\\Users\\Tosh\\.gradle\\caches\\transforms-1\\files-1.1\\ToshBaseCode--SNAPSHOT.aar\\db6910fa594b3d3a9f7017b54a953e6e\\res\\drawable-xxxhdpi-v4\\ic_refresh_black_24dp.png"
+        "source": "C:\\Users\\Tosh\\.gradle\\caches\\transforms-1\\files-1.1\\basecode--SNAPSHOT.aar\\7e83e7669810cdb6490247a91517b7a2\\res\\drawable-xxxhdpi-v4\\ic_refresh_black_24dp.png"
     },
     {
         "merged": "E:\\RealHustle\\CodeBase\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_text_select_handle_left_mtrl_light.png.flat",
