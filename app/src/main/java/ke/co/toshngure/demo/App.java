@@ -10,7 +10,7 @@ package ke.co.toshngure.demo;
 
 import android.app.Application;
 
-import ke.co.toshngure.logging.BeeLog;
+import ke.co.toshngure.basecode.log.BeeLog;
 
 /**
  * Created by Anthony Ngure on 24/11/2017.

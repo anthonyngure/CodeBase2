@@ -7,6 +7,8 @@
  */
 
 apply plugin: 'com.android.library'
+apply plugin: 'com.github.dcendents.android-maven'
+group = 'com.github.anthonyngure'
 
 android {
     compileSdkVersion rootProject.ext.compileSdkVersion
