@@ -28,7 +28,6 @@ import android.support.annotation.Nullable;
 import android.support.annotation.StringRes;
 import android.text.Editable;
 import android.text.TextWatcher;
-import android.util.Patterns;
 import android.view.Display;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -37,14 +36,6 @@ import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.ProgressBar;
 import android.widget.Toast;
-
-import com.google.gson.ExclusionStrategy;
-import com.google.gson.FieldAttributes;
-import com.google.gson.Gson;
-import com.google.gson.GsonBuilder;
-import com.rengwuxian.materialedittext.validation.METValidator;
-
-import ke.co.toshngure.basecode.annotations.GsonAvoid;
 
 
 /**
@@ -181,7 +172,7 @@ public class BaseUtils {
         return (int) (dp * Resources.getSystem().getDisplayMetrics().density);
     }
 
-    public static Gson getSafeGson() {
+    /*public static Gson getSafeGson() {
         return new GsonBuilder().setExclusionStrategies(new ExclusionStrategy() {
             @Override
             public boolean shouldSkipField(FieldAttributes fieldAttributes) {
@@ -248,7 +239,7 @@ public class BaseUtils {
                 return !isEmpty && (text.length() == length);
             }
         };
-    }
+    }*/
 
     /**
      * Get the color value for the given color attribute

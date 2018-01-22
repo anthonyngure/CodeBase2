@@ -71,7 +71,7 @@ public class BaseAppFragment extends Fragment implements ConnectionListener {
             new AlertDialog.Builder(getActivity())
                     .setTitle(R.string.connection_timed_out)
                     .setMessage(R.string.error_connection)
-                    .setNegativeButton(R.string.cancel, null)
+                    .setNegativeButton(android.R.string.cancel, null)
                     .setPositiveButton(R.string.retry, (dialog, which) -> connect()).create().show();
         } else {
 

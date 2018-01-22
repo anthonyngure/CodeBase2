@@ -24,10 +24,10 @@ import java.util.Random;
 import butterknife.BindView;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
+import ke.co.toshngure.basecode.images.NetworkImage;
 import ke.co.toshngure.basecode.utils.BaseUtils;
 import ke.co.toshngure.basecode.utils.DrawableUtils;
-import ke.co.toshngure.basecode.view.NetworkImage;
-import ke.co.toshngure.demo.basecode.R;
+import ke.co.toshngure.demo.R;
 
 public class NetworkImageActivity extends BaseActivity {
 

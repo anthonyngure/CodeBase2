@@ -20,7 +20,7 @@ import butterknife.BindView;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
 import ke.co.toshngure.basecode.utils.DrawableUtils;
-import ke.co.toshngure.demo.basecode.R;
+import ke.co.toshngure.demo.R;
 
 public class DrawableUtilsActivity extends BaseActivity {
 

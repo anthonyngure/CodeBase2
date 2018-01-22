@@ -13,7 +13,7 @@ import android.content.Context;
 import com.loopj.android.http.AsyncHttpClient;
 import com.loopj.android.http.SyncHttpClient;
 
-import ke.co.toshngure.demo.basecode.BuildConfig;
+import ke.co.toshngure.demo.BuildConfig;
 import ke.co.toshngure.logging.BeeLog;
 
 
