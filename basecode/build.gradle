@@ -65,6 +65,8 @@ dependencies {
         exclude group: 'com.android.support'
     }
     implementation 'com.google.code.gson:gson:2.8.0'
+    implementation 'com.wang.avi:library:2.1.3'
+
 }
 
 

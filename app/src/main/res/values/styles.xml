@@ -16,7 +16,6 @@
         <item name="colorAccent">@color/colorAccent</item>
         <item name="android:textColorPrimary">@color/colorPrimaryText</item>
         <item name="android:textColorSecondary">@color/colorPrimaryText</item>
-        <!--<item name="AVLoadingIndicatorColor">@color/colorAccent</item>-->
     </style>
 
     <style name="AppTheme.NoActionBar">

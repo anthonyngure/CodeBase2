@@ -435,7 +435,7 @@ public abstract class ModelListBottomSheetFragment<M, C extends SimpleCell<M, ?>
     }
 
     protected void log(Object msg) {
-        if (mDataLoadingConfig.isDebugEnabled()){
+        if (mDataLoadingConfig != null && mDataLoadingConfig.isDebugEnabled()){
             Log.d(TAG, String.valueOf(msg));
         }
     }
