@@ -6,7 +6,7 @@
  * Email : anthonyngure25@gmail.com
  */
 
-package ke.co.toshngure.demo.activity;
+package ke.co.toshngure.androidbasecode.activity;
 
 import android.content.Context;
 import android.content.Intent;
@@ -26,7 +26,7 @@ import butterknife.ButterKnife;
 import butterknife.OnClick;
 import ke.co.toshngure.basecode.utils.BaseUtils;
 import ke.co.toshngure.basecode.utils.DrawableUtils;
-import ke.co.toshngure.demo.R;
+import ke.co.toshngure.androidbasecode.R;
 import ke.co.toshngure.views.NetworkImage;
 
 public class NetworkImageActivity extends BaseActivity {

@@ -6,7 +6,7 @@
  * Email : anthonyngure25@gmail.com
  */
 
-package ke.co.toshngure.demo.activity;
+package ke.co.toshngure.androidbasecode.activity;
 
 import android.graphics.drawable.Drawable;
 import android.os.Bundle;
@@ -20,7 +20,7 @@ import butterknife.BindView;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
 import ke.co.toshngure.basecode.utils.DrawableUtils;
-import ke.co.toshngure.demo.R;
+import ke.co.toshngure.androidbasecode.R;
 
 public class DrawableUtilsActivity extends BaseActivity {
 

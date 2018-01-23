@@ -13,7 +13,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context="ke.co.toshngure.demo.activity.MainActivity"
+    tools:context="ke.co.toshngure.androidbasecode.activity.MainActivity"
     tools:showIn="@layout/activity_main">
 
 

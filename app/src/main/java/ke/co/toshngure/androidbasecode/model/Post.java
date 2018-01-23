@@ -6,7 +6,7 @@
  * Email : anthonyngure25@gmail.com
  */
 
-package ke.co.toshngure.demo.model;
+package ke.co.toshngure.androidbasecode.model;
 
 /**
  * Created by Anthony Ngure on 03/01/2018.

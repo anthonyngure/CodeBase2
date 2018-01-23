@@ -6,7 +6,7 @@
  * Email : anthonyngure25@gmail.com
  */
 
-package ke.co.toshngure.demo;
+package ke.co.toshngure.androidbasecode;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;

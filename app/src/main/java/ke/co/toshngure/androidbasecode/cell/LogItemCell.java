@@ -6,7 +6,7 @@
  * Email : anthonyngure25@gmail.com
  */
 
-package ke.co.toshngure.demo.cell;
+package ke.co.toshngure.androidbasecode.cell;
 
 import android.content.Context;
 import android.support.annotation.NonNull;
@@ -16,7 +16,7 @@ import android.view.ViewGroup;
 import com.jaychang.srv.SimpleCell;
 import com.jaychang.srv.SimpleViewHolder;
 
-import ke.co.toshngure.demo.R;
+import ke.co.toshngure.androidbasecode.R;
 import ke.co.toshngure.logging.LogItem;
 import ke.co.toshngure.views.SimpleListItemView;
 

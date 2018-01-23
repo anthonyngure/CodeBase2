@@ -6,7 +6,7 @@
  * Email : anthonyngure25@gmail.com
  */
 
-package ke.co.toshngure.demo.activity;
+package ke.co.toshngure.androidbasecode.activity;
 
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
@@ -14,7 +14,7 @@ import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 
-import ke.co.toshngure.demo.R;
+import ke.co.toshngure.androidbasecode.R;
 
 
 public class BasicActivity extends AppCompatActivity {

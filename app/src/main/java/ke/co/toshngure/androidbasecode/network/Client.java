@@ -6,14 +6,14 @@
  * Email : anthonyngure25@gmail.com
  */
 
-package ke.co.toshngure.demo.network;
+package ke.co.toshngure.androidbasecode.network;
 
 import android.content.Context;
 
 import com.loopj.android.http.AsyncHttpClient;
 import com.loopj.android.http.SyncHttpClient;
 
-import ke.co.toshngure.demo.BuildConfig;
+import ke.co.toshngure.androidbasecode.BuildConfig;
 import ke.co.toshngure.logging.BeeLog;
 
 

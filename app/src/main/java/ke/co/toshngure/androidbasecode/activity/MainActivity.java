@@ -6,7 +6,7 @@
  * Email : anthonyngure25@gmail.com
  */
 
-package ke.co.toshngure.demo.activity;
+package ke.co.toshngure.androidbasecode.activity;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -16,8 +16,8 @@ import android.view.MenuItem;
 
 import butterknife.ButterKnife;
 import butterknife.OnClick;
-import ke.co.toshngure.demo.R;
-import ke.co.toshngure.demo.fragment.UsersFragmentBottomSheet;
+import ke.co.toshngure.androidbasecode.R;
+import ke.co.toshngure.androidbasecode.fragment.UsersFragmentBottomSheet;
 
 public class MainActivity extends BaseActivity {
 

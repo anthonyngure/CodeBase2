@@ -6,7 +6,7 @@
  * Email : anthonyngure25@gmail.com
  */
 
-package ke.co.toshngure.demo.fragment;
+package ke.co.toshngure.androidbasecode.fragment;
 
 
 import android.os.Bundle;
@@ -24,10 +24,10 @@ import com.loopj.android.http.AsyncHttpClient;
 
 import ke.co.toshngure.dataloading.DataLoadingConfig;
 import ke.co.toshngure.dataloading.ModelListFragment;
-import ke.co.toshngure.demo.R;
-import ke.co.toshngure.demo.cell.UserCell;
-import ke.co.toshngure.demo.model.User;
-import ke.co.toshngure.demo.network.Client;
+import ke.co.toshngure.androidbasecode.R;
+import ke.co.toshngure.androidbasecode.cell.UserCell;
+import ke.co.toshngure.androidbasecode.model.User;
+import ke.co.toshngure.androidbasecode.network.Client;
 import ke.co.toshngure.views.NetworkImage;
 
 /**

@@ -6,12 +6,12 @@
  * Email : anthonyngure25@gmail.com
  */
 
-package ke.co.toshngure.demo.activity;
+package ke.co.toshngure.androidbasecode.activity;
 
 import android.os.Bundle;
 
-import ke.co.toshngure.demo.R;
-import ke.co.toshngure.demo.fragment.UsersFragment;
+import ke.co.toshngure.androidbasecode.R;
+import ke.co.toshngure.androidbasecode.fragment.UsersFragment;
 
 public class DataLoadingActivity extends BaseActivity {
 

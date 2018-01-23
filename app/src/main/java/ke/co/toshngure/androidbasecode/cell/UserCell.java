@@ -6,7 +6,7 @@
  * Email : anthonyngure25@gmail.com
  */
 
-package ke.co.toshngure.demo.cell;
+package ke.co.toshngure.androidbasecode.cell;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
@@ -20,8 +20,8 @@ import com.jaychang.srv.SimpleViewHolder;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
-import ke.co.toshngure.demo.R;
-import ke.co.toshngure.demo.model.User;
+import ke.co.toshngure.androidbasecode.R;
+import ke.co.toshngure.androidbasecode.model.User;
 import ke.co.toshngure.views.NetworkImage;
 
 /**
