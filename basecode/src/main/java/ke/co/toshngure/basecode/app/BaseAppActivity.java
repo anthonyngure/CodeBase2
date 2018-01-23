@@ -26,16 +26,14 @@ import android.widget.Toast;
 import com.jaeger.library.StatusBarUtil;
 
 import ke.co.toshngure.basecode.R;
-import ke.co.toshngure.basecode.fragment.LogItemsFragment;
 import ke.co.toshngure.basecode.utils.BaseUtils;
-import ke.co.toshngure.logging.BeeLog;
 
 /**
  * Created by Anthony Ngure on 18/09/2017.
  * Email : anthonyngure25@gmail.com.
  */
 
-public class BaseAppActivity extends AppCompatActivity {
+public abstract class BaseAppActivity extends AppCompatActivity {
 
 
     private static int sessionDepth = 0;
@@ -127,9 +125,6 @@ public class BaseAppActivity extends AppCompatActivity {
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
-        if (BeeLog.DEBUG) {
-            getMenuInflater().inflate(R.menu.activity_base_app, menu);
-        }
         BaseUtils.tintMenu(this, menu, Color.WHITE);
         return super.onCreateOptionsMenu(menu);
     }
@@ -138,10 +133,6 @@ public class BaseAppActivity extends AppCompatActivity {
     public boolean onOptionsItemSelected(MenuItem item) {
         if (item.getItemId() == android.R.id.home) {
             onBackPressed();
-            return true;
-        } else if (item.getItemId() == R.id.action_log_items) {
-            LogItemsFragment.newInstance().show(getSupportFragmentManager(),
-                    LogItemsFragment.class.getSimpleName());
             return true;
         } else {
             return super.onOptionsItemSelected(item);
@@ -179,17 +170,17 @@ public class BaseAppActivity extends AppCompatActivity {
         }
     }
 
-    public void toast(String message) {
+    public void toast(Object message) {
 
         try {
-            Toast.makeText(this, message, Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, String.valueOf(message), Toast.LENGTH_SHORT).show();
         } catch (Exception e) {
             e.printStackTrace();
         }
     }
 
-    public void toastDebug(String msg) {
-        if (BeeLog.DEBUG) {
+    public void toastDebug(Object msg) {
+        if (isDebuggable()) {
             toast(msg);
         }
     }
@@ -221,5 +212,7 @@ public class BaseAppActivity extends AppCompatActivity {
     protected int getLeaveExitAnim() {
         return R.anim.slide_right_out;
     }
+
+    public abstract boolean isDebuggable();
 
 }

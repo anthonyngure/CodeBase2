@@ -20,8 +20,6 @@ import java.util.Calendar;
 import java.util.Date;
 import java.util.Locale;
 
-import ke.co.toshngure.logging.BeeLog;
-
 /**
  * Created by Anthony Ngure on 01/02/2017.
  * Email : anthonyngure25@gmail.com.
@@ -67,7 +65,7 @@ public class DatesHelper {
         try {
             date = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss", Locale.ENGLISH).parse(timestamp);
         } catch (ParseException e) {
-            BeeLog.e(TAG, e);
+            e.printStackTrace();
         }
 
         return date.getTime();
@@ -88,7 +86,7 @@ public class DatesHelper {
                 val = DateFormat.getDateInstance().format(date);
             } catch (ParseException e) {
                 val = "Unspecified";
-                BeeLog.e(TAG, e);
+               e.printStackTrace();
             }
         }
         return val;

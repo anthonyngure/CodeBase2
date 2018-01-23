@@ -23,7 +23,6 @@ import com.jaychang.srv.SimpleRecyclerView;
 import com.loopj.android.http.AsyncHttpClient;
 
 import ke.co.toshngure.dataloading.DataLoadingConfig;
-import ke.co.toshngure.dataloading.ModelCursor;
 import ke.co.toshngure.dataloading.ModelListBottomSheetFragment;
 import ke.co.toshngure.demo.R;
 import ke.co.toshngure.demo.cell.UserCell;
@@ -119,10 +118,6 @@ public class UsersFragmentBottomSheet extends ModelListBottomSheetFragment<User,
     public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId()) {
             case R.id.action_change_cursors:
-                ModelCursor modelCursor = new ModelCursor();
-                modelCursor.setAfter(30);
-                modelCursor.setBefore(50);
-                updateModelCursor(modelCursor);
                 getSimpleRecyclerView().getAllCells().clear();
                 break;
         }

@@ -6,7 +6,7 @@
  * Email : anthonyngure25@gmail.com
  */
 
-package ke.co.toshngure.basecode.utils;
+package ke.co.toshngure.views.utils;
 
 import android.content.Context;
 import android.content.res.ColorStateList;

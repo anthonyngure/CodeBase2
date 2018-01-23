@@ -14,7 +14,7 @@ package ke.co.toshngure.dataloading;
  *
  */
 
-public class ModelCursor {
+class ModelCursor {
 
     private long after;
     private long before;

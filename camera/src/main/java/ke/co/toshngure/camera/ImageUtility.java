@@ -26,7 +26,6 @@ import java.io.File;
 import java.io.FileOutputStream;
 import java.io.IOException;
 
-import ke.co.toshngure.basecode.utils.FileUtil;
 
 public class ImageUtility {
 
@@ -70,7 +69,7 @@ public class ImageUtility {
         String fileName = System.currentTimeMillis() + ".jpg";
 
 
-        File mediaFile = new File(FileUtil.getFolderInAppExternalDirectory(context, "Camera"), fileName);
+        File mediaFile = new File(Utils.getFolderInAppExternalDirectory(context, "Camera"), fileName);
         // Saving the bitmap
         try {
             ByteArrayOutputStream out = new ByteArrayOutputStream();

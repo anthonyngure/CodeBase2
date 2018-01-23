@@ -10,6 +10,7 @@ package ke.co.toshngure.demo.activity;
 
 import android.annotation.SuppressLint;
 
+import ke.co.toshngure.basecode.BuildConfig;
 import ke.co.toshngure.basecode.app.BaseAppActivity;
 
 /**
@@ -19,4 +20,8 @@ import ke.co.toshngure.basecode.app.BaseAppActivity;
 
 @SuppressLint("Registered")
 public class BaseActivity extends BaseAppActivity {
+    @Override
+    public boolean isDebuggable() {
+        return BuildConfig.DEBUG;
+    }
 }

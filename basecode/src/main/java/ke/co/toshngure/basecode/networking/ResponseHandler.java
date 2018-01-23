@@ -8,6 +8,8 @@
 
 package ke.co.toshngure.basecode.networking;
 
+import android.util.Log;
+
 import com.loopj.android.http.JsonHttpResponseHandler;
 
 import org.json.JSONArray;
@@ -15,12 +17,10 @@ import org.json.JSONObject;
 
 import cz.msebera.android.httpclient.Header;
 import ke.co.toshngure.basecode.utils.BaseUtils;
-import ke.co.toshngure.logging.BeeLog;
 
 /**
  * Created by Anthony Ngure on 27/07/2017.
  * Email : anthonyngure25@gmail.com.
- *
  */
 
 public class ResponseHandler extends JsonHttpResponseHandler {
@@ -40,15 +40,19 @@ public class ResponseHandler extends JsonHttpResponseHandler {
             try {
                 mListener.onConnectionStarted();
             } catch (Exception e) {
-                BeeLog.e(TAG, e);
+                log(e);
             }
         } else {
             try {
                 mListener.onConnectionFailed(0, null);
             } catch (Exception e) {
-                BeeLog.e(TAG, e);
+                log(e);
             }
         }
+    }
+
+    private void log(Object msg) {
+        Log.d(TAG, String.valueOf(msg));
     }
 
     @Override
@@ -63,7 +67,7 @@ public class ResponseHandler extends JsonHttpResponseHandler {
             double progress = (totalSize > 0) ? (bytesWritten * 1.0 / totalSize) * 100 : -1;
             mListener.onConnectionProgress((int) progress);
         } catch (Exception e) {
-            BeeLog.e(TAG, e);
+            log(e);
         }
     }
 
@@ -73,7 +77,7 @@ public class ResponseHandler extends JsonHttpResponseHandler {
         try {
             mListener.onConnectionSuccess(response);
         } catch (Exception e) {
-            BeeLog.e(TAG, e);
+            log(e);
         }
     }
 
@@ -81,10 +85,10 @@ public class ResponseHandler extends JsonHttpResponseHandler {
     public void onFailure(int statusCode, Header[] headers, String responseString, Throwable throwable) {
         super.onFailure(statusCode, headers, responseString, throwable);
         try {
-            BeeLog.e(TAG, responseString);
+            log(responseString);
             mListener.onConnectionFailed(statusCode, null);
         } catch (Exception e) {
-            BeeLog.e(TAG, e);
+            log(e);
         }
     }
 
@@ -93,9 +97,9 @@ public class ResponseHandler extends JsonHttpResponseHandler {
         super.onFailure(statusCode, headers, throwable, errorResponse);
         try {
             mListener.onConnectionFailed(statusCode, errorResponse);
-            BeeLog.e(TAG, String.valueOf(errorResponse));
+            log(String.valueOf(errorResponse));
         } catch (Exception e) {
-            BeeLog.e(TAG, e);
+            log(e);
         }
     }
 
@@ -104,9 +108,9 @@ public class ResponseHandler extends JsonHttpResponseHandler {
         super.onFailure(statusCode, headers, throwable, errorResponse);
         try {
             mListener.onConnectionFailed(statusCode, null);
-            BeeLog.e(TAG, String.valueOf(errorResponse));
+            log(String.valueOf(errorResponse));
         } catch (Exception e) {
-            BeeLog.e(TAG, e);
+            log(e);
         }
     }
 }

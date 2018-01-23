@@ -13,6 +13,7 @@ import android.graphics.Color;
 import android.support.annotation.StringRes;
 import android.support.v4.app.Fragment;
 import android.support.v7.app.AlertDialog;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuInflater;
 
@@ -22,7 +23,6 @@ import ke.co.toshngure.basecode.R;
 import ke.co.toshngure.basecode.app.BaseAppActivity;
 import ke.co.toshngure.basecode.networking.ConnectionListener;
 import ke.co.toshngure.basecode.utils.BaseUtils;
-import ke.co.toshngure.logging.BeeLog;
 
 /**
  * Created by Anthony Ngure on 11/06/2017.
@@ -30,7 +30,7 @@ import ke.co.toshngure.logging.BeeLog;
  * Company : VibeCampo Social Network..
  */
 
-public class BaseAppFragment extends Fragment implements ConnectionListener {
+public abstract class BaseAppFragment extends Fragment implements ConnectionListener {
 
     private static final String TAG = "BaseAppFragment";
 
@@ -65,7 +65,7 @@ public class BaseAppFragment extends Fragment implements ConnectionListener {
 
     @Override
     public void onConnectionFailed(int statusCode, JSONObject response) {
-        BeeLog.d(TAG, "Connection failed! " + statusCode + ", " + String.valueOf(response));
+        log("Connection failed! " + statusCode + ", " + String.valueOf(response));
         hideProgressDialog();
         if ((statusCode == 0) || (statusCode == 408)) {
             new AlertDialog.Builder(getActivity())
@@ -88,6 +88,13 @@ public class BaseAppFragment extends Fragment implements ConnectionListener {
 
     }
 
+    private void log(Object msg) {
+        if ( ((BaseAppActivity) getActivity()).isDebuggable()){
+            Log.d(TAG, String.valueOf(msg));
+        }
+    }
+
+
     protected void showErrorAlertDialog(String message) {
         new AlertDialog.Builder(getActivity()).setCancelable(true)
                 .setMessage(message)
@@ -98,7 +105,7 @@ public class BaseAppFragment extends Fragment implements ConnectionListener {
 
     @Override
     public void onConnectionSuccess(JSONObject response) {
-        BeeLog.d(TAG, "onConnectionSuccess, Response = " + String.valueOf(response));
+        log("onConnectionSuccess, Response = " + String.valueOf(response));
         hideProgressDialog();
     }
 
@@ -113,7 +120,7 @@ public class BaseAppFragment extends Fragment implements ConnectionListener {
     }
 
 
-    public void toast(String message) {
+    public void toast(Object message) {
         ((BaseAppActivity) getActivity()).toast(message);
     }
 
@@ -121,10 +128,8 @@ public class BaseAppFragment extends Fragment implements ConnectionListener {
         toast(getString(string));
     }
 
-    public void toastDebug(String msg) {
-        if (BeeLog.DEBUG) {
-            toast(msg);
-        }
+    public void toastDebug(Object msg) {
+        ((BaseAppActivity) getActivity()).toastDebug(msg);
     }
 
     @Override

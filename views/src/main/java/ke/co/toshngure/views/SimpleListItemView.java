@@ -22,7 +22,7 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import ke.co.toshngure.views.utils.BaseUtils;
+import ke.co.toshngure.views.utils.Utils;
 
 
 /**
@@ -66,7 +66,7 @@ public class SimpleListItemView extends FrameLayout {
 
         int titleTopBottomPadding = typedArray.getDimensionPixelSize(R.styleable.SimpleListItemView_sliTitleTopBottomPadding, 0);
         if (titleTopBottomPadding != 0){
-            int padding = BaseUtils.dpToPx(titleTopBottomPadding);
+            int padding = Utils.dpToPx(titleTopBottomPadding);
             mTitleTV.setPadding(mTitleTV.getPaddingLeft(), padding, mTitleTV.getPaddingRight(), padding);
         }
 
@@ -76,7 +76,7 @@ public class SimpleListItemView extends FrameLayout {
 
         setItemDrawable(typedArray.getDrawable(R.styleable.SimpleListItemView_sliDrawable));
         int drawableTint = typedArray.getColor(R.styleable.SimpleListItemView_sliDrawableTint,
-                BaseUtils.getColor(getContext(), R.attr.colorPrimary));
+                Utils.getColor(getContext(), R.attr.colorPrimary));
         mDrawableIV.setColorFilter(drawableTint);
 
         boolean drawableCentered = typedArray.getBoolean(R.styleable.SimpleListItemView_sliDrawableCentered, false);

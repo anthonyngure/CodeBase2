@@ -6,15 +6,15 @@
  * Email : anthonyngure25@gmail.com
  */
 
-package ke.co.toshngure.basecode.fragment;
+package ke.co.toshngure.demo.fragment;
 
 import android.os.Bundle;
 
 import java.util.List;
 
-import ke.co.toshngure.basecode.cell.LogItemCell;
 import ke.co.toshngure.dataloading.DataLoadingConfig;
 import ke.co.toshngure.dataloading.ModelListBottomSheetFragment;
+import ke.co.toshngure.demo.cell.LogItemCell;
 import ke.co.toshngure.logging.LogHistoryManager;
 import ke.co.toshngure.logging.LogItem;
 

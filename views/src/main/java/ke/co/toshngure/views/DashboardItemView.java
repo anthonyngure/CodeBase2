@@ -23,7 +23,7 @@ import android.widget.FrameLayout;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import ke.co.toshngure.views.utils.BaseUtils;
+import ke.co.toshngure.views.utils.Utils;
 
 
 /**
@@ -65,8 +65,9 @@ public class DashboardItemView extends FrameLayout {
         int iconTint = typedArray.getColor(R.styleable.DashboardItemView_divIconTint, Color.WHITE);
         mIconIV.setColorFilter(iconTint);
 
+        //Default iconBackground is the colorPrimaryDark
         int iconBackground = typedArray.getColor(R.styleable.DashboardItemView_divIconBackground,
-                BaseUtils.getColor(getContext(), R.attr.colorPrimaryDark));
+                Utils.getColor(getContext(), R.attr.colorPrimaryDark));
 
         int itemIconSize = typedArray.getDimensionPixelSize(R.styleable.DashboardItemView_divIconSize, DEFAULT_ICON_SIZE);
 

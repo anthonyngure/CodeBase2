@@ -22,6 +22,7 @@ import android.support.design.widget.BottomSheetDialogFragment;
 import android.support.v4.app.LoaderManager;
 import android.support.v4.content.Loader;
 import android.support.v7.app.AlertDialog;
+import android.util.Log;
 import android.view.Gravity;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -112,7 +113,7 @@ public abstract class ModelListBottomSheetFragment<M, C extends SimpleCell<M, ?>
 
     @Nullable
     @Override
-    public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
+    public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         mDataLoadingConfig = getDataLoadingConfig();
         log("DataLoadingConfig = " + mDataLoadingConfig.toString());
         log("onCreateView");
@@ -340,9 +341,9 @@ public abstract class ModelListBottomSheetFragment<M, C extends SimpleCell<M, ?>
 
                     for (int i = 0; i < data.length(); i++) {
                         JSONObject itemObject = data.getJSONObject(i);
-                        //M item = BaseUtils.getSafeGson().fromJson(itemObject.toString(), getModelClass());
-                        //onSaveItem(item);
-                        //cList.add(onCreateCell(item));
+                        M item = Utils.getSafeGson().fromJson(itemObject.toString(), getModelClass());
+                        onSaveItem(item);
+                        cList.add(onCreateCell(item));
                     }
 
                 } catch (JSONException e) {
@@ -433,8 +434,10 @@ public abstract class ModelListBottomSheetFragment<M, C extends SimpleCell<M, ?>
         return 0;
     }
 
-    protected void log(String msg) {
-        //BeeLog.d(TAG, String.valueOf(msg));
+    protected void log(Object msg) {
+        if (mDataLoadingConfig.isDebugEnabled()){
+            Log.d(TAG, String.valueOf(msg));
+        }
     }
 
     public SimpleRecyclerView getSimpleRecyclerView() {

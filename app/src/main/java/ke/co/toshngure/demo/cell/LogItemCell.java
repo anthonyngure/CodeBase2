@@ -6,7 +6,7 @@
  * Email : anthonyngure25@gmail.com
  */
 
-package ke.co.toshngure.basecode.cell;
+package ke.co.toshngure.demo.cell;
 
 import android.content.Context;
 import android.support.annotation.NonNull;
@@ -16,8 +16,9 @@ import android.view.ViewGroup;
 import com.jaychang.srv.SimpleCell;
 import com.jaychang.srv.SimpleViewHolder;
 
-import ke.co.toshngure.basecode.R;
+import ke.co.toshngure.demo.R;
 import ke.co.toshngure.logging.LogItem;
+import ke.co.toshngure.views.SimpleListItemView;
 
 /**
  * Created by Anthony Ngure on 22/01/2018.
@@ -51,8 +52,8 @@ public class LogItemCell extends SimpleCell<LogItem, LogItemCell.LogItemViewHold
         }
 
         public void bind(LogItem item) {
-            //((SimpleListItemView) itemView).setTitle(item.getTitle());
-            //((SimpleListItemView) itemView).setTitle(item.getDetails());
+            ((SimpleListItemView) itemView).setTitle(item.getTitle());
+            ((SimpleListItemView) itemView).setTitle(item.getDetails());
         }
     }
 }

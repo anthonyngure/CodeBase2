@@ -33,15 +33,15 @@ public final class R {
         public static int cube_ptr_simple_loading = 0x7f0f001c;
     }
     public static final class string {
-        public static int cube_ptr_hours_ago = 0x7f150023;
-        public static int cube_ptr_last_update = 0x7f150024;
-        public static int cube_ptr_minutes_ago = 0x7f150025;
-        public static int cube_ptr_pull_down = 0x7f150026;
-        public static int cube_ptr_pull_down_to_refresh = 0x7f150027;
-        public static int cube_ptr_refresh_complete = 0x7f150028;
-        public static int cube_ptr_refreshing = 0x7f150029;
-        public static int cube_ptr_release_to_refresh = 0x7f15002a;
-        public static int cube_ptr_seconds_ago = 0x7f15002b;
+        public static int cube_ptr_hours_ago = 0x7f150022;
+        public static int cube_ptr_last_update = 0x7f150023;
+        public static int cube_ptr_minutes_ago = 0x7f150024;
+        public static int cube_ptr_pull_down = 0x7f150025;
+        public static int cube_ptr_pull_down_to_refresh = 0x7f150026;
+        public static int cube_ptr_refresh_complete = 0x7f150027;
+        public static int cube_ptr_refreshing = 0x7f150028;
+        public static int cube_ptr_release_to_refresh = 0x7f150029;
+        public static int cube_ptr_seconds_ago = 0x7f15002a;
     }
     public static final class styleable {
         public static int[] PtrClassicHeader = { 0x7f0400f8 };
